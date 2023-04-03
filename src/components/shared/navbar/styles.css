@@ -1,0 +1,60 @@
+/* FLEXBOX */
+
+.main-header{
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  /* height: 80px; */
+  
+}
+
+.main-header{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.related-author{
+  clear: both;
+}
+
+nav {
+  font-size: 18px;
+  /* padding-bottom: 10px; */
+  /* text-align: center; */
+}
+
+nav a:link{
+  display:inline-block;
+  margin-right: 30px;
+  /* padding: 20px; */
+} 
+nav a:last-child{
+  margin-right: 0px;
+}
+
+
+/* list styles*/
+ul,ol{
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+li:last-child{
+  margin-bottom: 0px;
+}
+
+li:first-child{
+  font-weight: bold;
+}
+
+li:last-child{
+  font-style: italic;
+}
+
