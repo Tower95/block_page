@@ -6,3 +6,87 @@ article{
   flex: 1;
   margin-bottom: 0px;
 }
+
+.post-header{
+  margin-bottom: 40px;
+}
+
+.post-image{
+  width:100%;
+  height: auto;
+}
+
+.author-image{
+  margin:0px
+}
+
+.autho-info{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-bottom: 50px;
+}
+
+#authror{
+  margin-left: 15px;
+}
+
+/* Header Article*/
+
+.post-heade{
+  margin-bottom: 40px;
+}
+
+/* Article title*/
+h2{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+h2::before{
+  content: "TOP";
+  background-color: #ffe70e;
+  font-size: 16px;
+  font-weight: bold;
+  color: #444;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
+}
+
+h2{
+  position: relative;
+}
+
+post-header{
+  margin-bottom: 40px;
+}
+
+.autor-info{
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.author-info p{
+  margin: 0px;
+}
+
+#author{
+  margin-left: 15px;
+}
+
+.related-author{
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+
+
+
+
+

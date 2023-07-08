@@ -8,9 +8,11 @@ const BlogApp = () => {
   return (
     <div className='container'>
       <Navbar />
-      <Post />
-      <Aside />
-      <Footer />  
+      <div className='row'>
+        <Post />
+        <Aside />
+      </div>
+      <Footer />
     </div>
   )
 }

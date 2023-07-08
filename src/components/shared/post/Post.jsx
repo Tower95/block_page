@@ -1,19 +1,23 @@
 import React from 'react'
 import './styles.css'
 
+// imagenes
+import authorImage from '../../../assets/img/laura-jones.jpg'
+import postImage from '../../../assets/img/post-img.jpg'
+import './styles.css'
+
 const Post = () => {
   return (
     <article>
 
 
-      <header class="post-header">
+      <header className="post-header">
         <h2>The Basic Language of the Web: HTML</h2>
-        <div class="author-info">
-          {/* TODO Make img work */}
-          <img class="author-image" src="../../../assets/img/laura-jones.jpg" alt="Headshot of Laura Jones" height="50" width="50" />
-          <p id="author" class="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <div className="author-info">
+          <img className="author-image" src={authorImage} alt="Headshot of Laura Jones" height="50" width="50" />
+          <p id="author" className="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
         </div>
-        <img src="img/post-img.jpg" alt="HTML code on a screen" width="500" height="200" class="post-image" />
+        <img src={postImage} alt="HTML code on a screen" width="500" height="200" className="post-image" />
       </header>
 
       <p>
